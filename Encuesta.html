@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFFr-JNl7bNF3lvvxwtyWeAPz_uEYJiAkJY6kH0R3keWVoLky5mdz315mV&s=10');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      form {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border-radius: 5px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        text-align: center;
+        margin: 10px 0;
+      }
+
+      label {
+        margin: 10px 0;
+      }
+
+      input[type="text"],
+      input[type="radio"] {
+        margin: 5px 0;
+      }
+
+      input[type="submit"] {
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 20px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="Gracias.html">
+      <h1>Cuestionario</h1>
+      <h2>Nombre de usuario:</h2>
+      <label><input type="text" placeholder="Ingresa tu nombre de usuario"></label>
+      <h2>¿Tienes consola Xbox?</h2>
+      <label><input type="radio" name="xbox" value="yes"> Sí</label>
+      <label><input type="radio" name="xbox" value="no"> No</label>
+      <h2>Juego favorito:</h2>
+      <label><input type="text" placeholder="Ingresa tu juego favorito"></label>
+      <h2>Logro más difícil:</h2>
+      <label><input type="text" placeholder="Ingresa tu logro más difícil"></label>
+      <h2>Personaje favorito:</h2>
+      <label><input type="text" placeholder="Ingresa tu personaje favorito"></label>
+      <h2>¿Tienes vida social?</h2>
+      <label><input type="radio" name="social" value="yes"> Sí</label>
+      <label><input type="radio" name="social" value="no"> No</label>
+      <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>
